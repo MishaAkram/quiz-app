@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
-import Questionaire from "./Components/Questionaire"
+import Questionnaire from './components/Questionnaire';
 
 function App() {
   return (
     <div className="App">
-      <Questionaire/>
+      <h1>JavaScript Quiz</h1>
+     <Questionnaire />
     </div>
   );
 }

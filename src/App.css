@@ -1,0 +1,45 @@
+.App {
+    text-align: center;
+  }
+  
+  
+  h1.question {font-size: 22px;}
+  
+  button.btnAnswer {
+      display: block;
+      margin: 0 auto;
+      width: 300px;
+      height: 70px;
+      color: rgb(241, 237, 237);
+      cursor: pointer;
+      background:rgb(114, 129, 243);
+      border: none;
+      margin-bottom: 10px;
+      padding: 10px 10px;
+      font-size: 18px;
+  }
+  
+  button.btnAnswer:hover {
+      opacity: 0.8;
+  }
+  
+  .ScoreWrapper {
+      position: absolute;
+      bottom: 0px;
+      width: 100%;
+      background: #ffffff;
+      text-align: center;
+      
+  }
+  
+  h3.correct {
+      display: inline-block;
+      vertical-align: middle;
+      margin: 1em;
+  }
+  
+  h2.userGreeting{
+  font-size: 18px;
+  color:#51d430;
+  
+  }
